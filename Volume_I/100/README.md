@@ -10,6 +10,7 @@ Time limit: 3.000 seconds
 ## The Problem
 
 Consider the following algorithm:
+
     1.input n
     2.print n
     3.if n = 1 then STOP
