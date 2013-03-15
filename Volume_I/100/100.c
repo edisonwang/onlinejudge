@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 int main (){
-	int i,j,a,n,count,max,large,small;
-	max = 0;
+	unsigned  i,j,a,n,count,max,large,small;
 	while (2 == scanf("%d %d", &i ,&j)){
 		large = i > j ? i : j;
 		small = i >= j ? j : i;
+	    max = 0;
 		for (a=small;a<=large;a++){
 			count = 0;
 			n = a;
@@ -24,5 +24,6 @@ int main (){
 		}
 		printf ("%d %d %d\n", i, j, max);
 	}
+	return 0;
 }
 
